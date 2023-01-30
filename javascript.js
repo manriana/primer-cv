@@ -24,39 +24,18 @@ function myFunction() {
   }
 
   function mostrarb(input) {
-    var parrafo= document.getElementById("banco")
-    if(input.value == "Ocultar"){
-      parrafo.style.visibility= "hidden";
-      input.value = "Mostrar";
-    }
-    else {
-      parrafo.style.visibility="visible";
-      input.value = "Ocultar";
-    }
-   }
+
+   document.getElementById("banco").innerHTML = "Era Supervisor Operativo de una sucursal bancaria, realizaba tareas de control (de personal, legajos de clientes y de tesoreria). Asistía al gerente en el manejo de la sucural bancaria. Realiza también atención al cliente, manejo y resolución de reclamos" ; 
+    
+  }
     
    function mostrarc(input) {
-    var parrafo= document.getElementById("ccentre")
-    if(input.value == "Ocultar"){
-      parrafo.style.visibility= "hidden";
-      input.value = "Mostrar";
-    }
-    else {
-      parrafo.style.visibility="visible";
-      input.value = "Ocultar";
-    }
-   }
+    document.getElementById("ccentre").innerHTML = "Mis tareas en dicha institución era la realización de llamadas salientes para la venta de productos bancarios de forma telefonica.";
+     }
 
    function mostrarp(input) {
-    var parrafo= document.getElementById("parisi")
-    if(input.value == "Ocultar"){
-      parrafo.style.visibility= "hidden";
-      input.value = "Mostrar";
-    }
-    else {
-      parrafo.style.visibility="visible";
-      input.value = "Ocultar";
-    }
+    document.getElementById("parisi").innerHTML ="Mis tareas en dicha institución era la realización de llamadas salientes para la venta de productos bancarios de forma telefonica.";
+    
    }
 
 

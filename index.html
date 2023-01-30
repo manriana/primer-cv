@@ -24,7 +24,7 @@
   <title>Nuevo CV</title>
   </head>
 
-<body>
+<body id="body">
 
     <div class="container-fluid">
       <div class="row">
@@ -41,8 +41,8 @@
       </div>
    </div>
 
-
-
+  <header>
+    
     <div id="encabezado" class="encabezado">
       <div class="col-12">
         <h2><strong>Analia Manrique</strong></h2>
@@ -50,8 +50,6 @@
       </div>
     </div>
 
- <!--  </div> --> 
-  
 </header> 
   <section id="inicio">  
         
@@ -76,10 +74,10 @@
             <br>
             <div class="iconos">
                <ul>
-                 <a id="nac" class="fa-solid fa-calendar-days" style="color: rgb(73, 7, 117); cursor: pointer;" onmouseover="edad()"></a>
-                 <a id="correo" class="fa-solid fa-envelope" style="color: rgb(73, 7, 117); cursor: pointer;" onmouseover="correo()"></a>
-                 <a id="telefono" class="fa-solid fa-phone" style="color:rgb(73, 7, 117); cursor: pointer;" onmouseover="telefono()"></a>
-                 <a id="direccion" class="fa-solid fa-map-location-dot" style="color:rgb(73, 7, 117); cursor: pointer;" onmouseover="domicilio()"></a>
+                 <a id="nac" class="fa-solid fa-calendar-days" name="nac" value="nacim" onmouseover="muestra()"></a>
+                 <a id="correo" class="fa-solid fa-envelope"  onmouseover="correo()"></a>
+                 <a id="telefono" class="fa-solid fa-phone" onmouseover="telefono()"></a>
+                 <a id="direccion" class="fa-solid fa-map-location-dot" onmouseover="domicilio()"></a>
               </ul>   
             </div>
           </section>

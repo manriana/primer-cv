@@ -7,6 +7,8 @@ function myFunction() {
     }
   }
 
+  
+
   function edad(){ 
     document.getElementById("datos").innerHTML = "Mi edad 46 años";
   }

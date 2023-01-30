@@ -85,7 +85,6 @@ topnav a.active {
     font-size: small;
     box-sizing: content-box;
     padding-top: 100px;    
-    font-family: 'Allura', cursive;
     font-weight: 100px;
     margin: 0 auto;
         }    
@@ -116,9 +115,10 @@ topnav a.active {
     font-style: oblique;
        }       
 
-.iconos {
+.iconos a{
   font-size: 40px;
-  
+  color: rgb(73, 7, 117);
+  cursor: pointer;
        }
 
 .borde {
